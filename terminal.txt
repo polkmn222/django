@@ -1,0 +1,33 @@
+# project
+django-admin startproject mysite
+
+# move
+cd mysite
+
+# run server
+python manage.py runserver
+
+# host
+http://127.0.0.1:8000/
+http://localhost:8000/
+
+# server end
+ctrl + c 
+
+# startapp
+python manage.py startapp elections
+
+# admin
+http://localhost:8000/admin
+
+# db.sqlite3
+python manage.py makemigrations
+python manage.py migrate
+
+# createsuperuser
+python manage.py createsuperuser
+
+user
+1234
+
+
